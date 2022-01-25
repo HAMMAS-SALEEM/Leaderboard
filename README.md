@@ -4,7 +4,8 @@
 > This web application is a type of a scoreboard showing the names and current scores of the leading competitors in any field which is using API's to get and set data.
 
 
-![SCREENSHOT](./src/assets/todo.GIF)
+![SCREENSHOT](./src/components/images/leaderboard-desktop.GIF)
+![SCREENSHOT](./src/components/images/leaderboard-mob.GIF)
 
 
 ## Built With
@@ -16,7 +17,7 @@
 
 ## Get Live Demo
 
-[Live Demo Link](https://hammas-saleem.github.io/ToDoList/)
+<!-- [Live Demo Link](https://hammas-saleem.github.io/ToDoList/) -->
 
 
 ## Clone and review it
