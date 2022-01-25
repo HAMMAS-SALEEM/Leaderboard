@@ -16,22 +16,22 @@ body {
 }
 
 section {
-    margin-top: 25px;
+  margin-top: 25px;
 }
 
 .score-section {
-    width: 300px;
-    margin: 0 auto;
+  width: 300px;
+  margin: 0 auto;
 }
 
 .score-section-header {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 12px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
 }
 
 #score-title {
-    font-size: 29px;
+  font-size: 29px;
 }
 
 .ranks {
@@ -59,45 +59,45 @@ section {
 }
 
 button {
-    border: none;
-    background: blanchedalmond;
-    width: 60px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 14px;
-    font-weight: bold;
+  border: none;
+  background: blanchedalmond;
+  width: 60px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 button:hover {
-    background: rgb(212, 165, 93);
+  background: rgb(212, 165, 93);
 }
 
 .form-title {
-    font-size: 24px;
+  font-size: 24px;
 }
 
 .name-score {
-    width: 200px;
-    height: 30px;
-    margin-top: 10px;
-    border: 1px solid black;
-    text-indent: 5px;
+  width: 200px;
+  height: 30px;
+  margin-top: 10px;
+  border: 1px solid black;
+  text-indent: 5px;
 }
 
 #submit {
-    width: 60px;
-    height: 30px;
-    align-self: flex-end;
-    margin-top: 12px;
+  width: 60px;
+  height: 30px;
+  align-self: flex-end;
+  margin-top: 12px;
 }
 
-@media screen and (min-width: 992px)  {
-    section {
-        display: flex;
-        margin-top: 50px;
-    }
+@media screen and (min-width: 992px) {
+  section {
+    display: flex;
+    margin-top: 50px;
+  }
 
-    #form {
-        margin-top: 0;
-    }
+  #form {
+    margin-top: 0;
+  }
 }
