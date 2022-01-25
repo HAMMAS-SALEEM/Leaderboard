@@ -15,6 +15,10 @@ body {
   margin-top: 50px;
 }
 
+section {
+    margin-top: 25px;
+}
+
 .score-section {
     width: 300px;
     margin: 0 auto;
@@ -26,14 +30,14 @@ body {
 }
 
 .ranks {
-  border: black 1px solid;
   margin-top: 5px;
 }
 
 .player {
   background-color: rgba(0, 0, 0, 0.274);
   font-size: 24px;
-
+  color: whitesmoke;
+  margin-top: 3px;
 }
 
 #form {
@@ -57,5 +61,15 @@ body {
     height: 30px;
     align-self: flex-end;
     margin-top: 12px;
+}
 
+@media screen and (min-width: 992px)  {
+    section {
+        display: flex;
+        margin-top: 50px;
+    }
+
+    #form {
+        margin-top: 0;
+    }
 }
