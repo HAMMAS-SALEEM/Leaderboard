@@ -27,17 +27,27 @@ section {
 .score-section-header {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+#score-title {
+    font-size: 29px;
 }
 
 .ranks {
+  border: 3px solid blanchedalmond;
+  border-radius: 5px;
   margin-top: 5px;
+  padding: 5px;
 }
 
 .player {
   background-color: rgba(0, 0, 0, 0.274);
+  border-radius: 5px;
   font-size: 24px;
   color: whitesmoke;
-  margin-top: 3px;
+  margin: 3px;
+  text-indent: 5px;
 }
 
 #form {
@@ -46,6 +56,24 @@ section {
   flex-direction: column;
   margin: 0 auto;
   margin-top: 30px;
+}
+
+button {
+    border: none;
+    background: blanchedalmond;
+    width: 60px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+button:hover {
+    background: rgb(212, 165, 93);
+}
+
+.form-title {
+    font-size: 24px;
 }
 
 .name-score {
