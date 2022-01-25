@@ -7,6 +7,23 @@
     <title>LeaderBoard</title>
 <script defer src="bundle.js"></script></head>
 <body>
-    <h1>Leaderboard</h1>
+    <h1 id="page-title">Leaderboard</h1>
+    <section>
+        <div class="score-section">
+        <h2 id="score-title">Recent scores</h2>
+        <button type="button">Refresh</button>
+        <div class="ranks">
+            <p class="player">Hammas : 100</p>
+            <p class="player">Jihane : 500</p>
+            <p class="player">Tresor : 400</p>
+        </div>
+    </div>
+        <form id="form">
+            <h3>Add your score</h3>
+            <input type="text" placeholder="Your Name" id="name" class="name">
+            <input type="text" placeholder="Your Score" id="score" class="score">
+            <button type="submit" id="submit">submit</button>
+        </form>
+    </section>
 </body>
 </html>

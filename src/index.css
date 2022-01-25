@@ -1,3 +1,61 @@
-h1 {
-  color: red;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rosybrown;
+}
+
+#page-title {
+  color: blanchedalmond;
+  font-size: 62px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.score-section {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.score-section-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ranks {
+  border: black 1px solid;
+  margin-top: 5px;
+}
+
+.player {
+  background-color: rgba(0, 0, 0, 0.274);
+  font-size: 24px;
+
+}
+
+#form {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.name-score {
+    width: 200px;
+    height: 30px;
+    margin-top: 10px;
+    border: 1px solid black;
+    text-indent: 5px;
+}
+
+#submit {
+    width: 60px;
+    height: 30px;
+    align-self: flex-end;
+    margin-top: 12px;
+
 }
