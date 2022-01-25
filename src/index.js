@@ -1,8 +1,9 @@
 import './index.css';
+import showRanks from './components/js/showRanks.js';
 
 const playerBox = document.querySelector('.ranks');
 
-const player = [{
+const players = [{
   name: 'Hammas',
   score: '100',
 },
@@ -16,6 +17,6 @@ const player = [{
 },
 ];
 
-player.forEach((play) => {
-  playerBox.innerHTML += `<p class="player">${play.name} : ${play.score}</p>`;
+window.addEventListener('load', () => {
+  showRanks(players, playerBox);
 });
