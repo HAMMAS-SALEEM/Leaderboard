@@ -16,9 +16,11 @@ refreshBtn.addEventListener('click',()=>{
   refreshApiData(players, playerBox);
 });
 
-form.addEventListener('submit',(e)=>{
+form.addEventListener('submit',async (e)=>{
   e.preventDefault();
   await addEntry(name,score)
   console.log('test')
   refreshApiData(players, playerBox)
+  name.value='';
+  score.value='';
 });

@@ -31,7 +31,6 @@ export const addEntry = async (name, score) => {
         user: name.value,
         score: score.value,
     }
-    console.log(JSON.stringify(obj))
    let response = await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/UrrwaUE68W5wfBNLiufe/scores', {
             method: 'POST',
             body: JSON.stringify(obj),
@@ -39,9 +38,5 @@ export const addEntry = async (name, score) => {
                 'Content-type': 'application/json; charset=UTF-8',
             },
         })
-        console.log('testA')
-        
-        await response.json()
-
-        console.log("testB")
+        return response.result
 }
