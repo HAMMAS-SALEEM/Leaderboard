@@ -1,2 +1,2 @@
-let storageManager = []
+const storageManager = [];
 export default storageManager;
