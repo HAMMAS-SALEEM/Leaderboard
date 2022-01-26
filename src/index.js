@@ -1,5 +1,5 @@
 import './index.css';
-import refreshApiData from './components/js/api.js';
+import { refreshApiData, addEntry } from './components/js/api.js';
 
 const playerBox = document.querySelector('.ranks');
 const refreshBtn = document.getElementById('refresh')
@@ -14,14 +14,11 @@ window.addEventListener('load', () => {
 
 refreshBtn.addEventListener('click',()=>{
   refreshApiData(players, playerBox);
-})
+});
 
 form.addEventListener('submit',(e)=>{
   e.preventDefault();
-  let obj = {
-    name: name.value,
-    score: score.value,
-    id: new Date().getTime().toString()
-  }
-  console.log(JSON.stringify(obj))
-})
+  await addEntry(name,score)
+  console.log('test')
+  refreshApiData(players, playerBox)
+});
