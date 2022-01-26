@@ -1,22 +1,14 @@
 import './index.css';
-import showRanks from './components/js/showRanks.js';
+import hitApi from './components/js/api.js';
 
 const playerBox = document.querySelector('.ranks');
-
-const players = [{
-  name: 'Hammas',
-  score: '100',
-},
-{
-  name: 'Jihane',
-  score: '500',
-},
-{
-  name: 'Tresor',
-  score: '300',
-},
-];
+const submitBtn = document.getElementById('refresh')
+let players = [];
 
 window.addEventListener('load', () => {
-  showRanks(players, playerBox);
+  hitApi(players, playerBox);
 });
+
+submitBtn.addEventListener('click',()=>{
+  hitApi(players, playerBox);
+})
