@@ -40,12 +40,12 @@ section {
 }
 
 .position {
-    font-size: 20px;
-    color: aliceblue;
-    width: 50px;
-    background-color: cornflowerblue;
-    text-align: center;
-    border-radius: 10px;
+  font-size: 20px;
+  color: aliceblue;
+  width: 50px;
+  background-color: cornflowerblue;
+  text-align: center;
+  border-radius: 10px;
 }
 
 .pos-not-first {
@@ -88,7 +88,8 @@ section {
   margin-right: 35px;
 }
 
-.name, .score {
+.name,
+.score {
   font-size: 24px;
   color: #26547d;
   font-weight: 900;
@@ -136,7 +137,7 @@ section {
   align-items: center;
   margin: 20px auto;
   box-shadow: 10px 10px 5px rgb(212, 165, 93);
-} 
+}
 
 button {
   border: none;
