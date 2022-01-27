@@ -5,22 +5,98 @@
 }
 
 body {
-  background-color: rosybrown;
+  background-color: #05c793;
+}
+
+header {
+  background-color: #26547d;
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
 }
 
 #page-title {
   color: blanchedalmond;
   font-size: 62px;
   text-align: center;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 section {
-  margin: 25px 0;
+  margin-bottom: 25px;
+  margin-top: -1px;
+}
+
+.top-ranks {
+  background-color: #26547d;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 0  0 65px 65px;
+  margin-bottom: 12px;
+}
+
+.position {
+  font-size: 20px;
+  color: aliceblue;
+  width: 50px;
+  background-color: cornflowerblue;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.pos-not-first {
+  margin-bottom: 10px;
+}
+
+.top-ranks-person {
+  width: 150px;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15%;
+  background-color: #ffce5c;
+  backdrop-filter: blur(10px);
+}
+
+.fa-user-alt {
+  color: aliceblue;
+}
+
+.rank-first {
+  width: 190px;
+  height: 230px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15%;
+  background-color: #ef436b;
+}
+
+.fa-crown {
+  color: gold;
+  transform: rotate(340deg);
+}
+
+.fa-crown::before {
+  margin-right: 35px;
+}
+
+.name,
+.score {
+  font-size: 24px;
+  color: #26547d;
+  font-weight: 900;
 }
 
 .score-section {
-  width: 300px;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -51,11 +127,16 @@ section {
 }
 
 #form {
-  width: 200px;
+  background-color: #fff5eb;
+  border-radius: 15px;
+  width: 300px;
+  height: 300px;
   display: flex;
   flex-direction: column;
-  margin: 0 auto;
-  margin-top: 30px;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  box-shadow: 10px 10px 5px rgb(212, 165, 93);
 }
 
 button {
@@ -80,21 +161,31 @@ button:hover {
   width: 200px;
   height: 30px;
   margin-top: 10px;
-  border: 1px solid black;
+  border: 3px solid #26547d;
+  border-radius: 5px;
   text-indent: 5px;
+}
+
+.name-score:focus {
+  background-color: antiquewhite;
 }
 
 #submit {
   width: 60px;
   height: 30px;
-  align-self: flex-end;
   margin-top: 12px;
+  background-color: #26547d;
+  color: #fff5eb;
 }
 
 @media screen and (min-width: 992px) {
-  section {
+  .for-fullscreen {
     display: flex;
     margin-top: 50px;
+  }
+
+  .score-section {
+    width: 600px;
   }
 
   #form {
