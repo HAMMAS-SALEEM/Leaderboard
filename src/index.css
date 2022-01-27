@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #fff5eb;
+  background-color: #05c793;
 }
 
 header {
@@ -99,7 +99,7 @@ section {
 }
 
 .score-section {
-  width: 300px;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -130,12 +130,16 @@ section {
 }
 
 #form {
-  width: 200px;
+  background-color: #fff5eb;
+  border-radius: 15px;
+  width: 300px;
+  height: 300px;
   display: flex;
   flex-direction: column;
-  margin: 0 auto;
-  margin-top: 30px;
-}
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+} 
 
 button {
   border: none;
@@ -153,6 +157,7 @@ button:hover {
 
 .form-title {
   font-size: 24px;
+  /* margin-top: 50px; */
 }
 
 .name-score {
@@ -166,14 +171,19 @@ button:hover {
 #submit {
   width: 60px;
   height: 30px;
-  align-self: flex-end;
   margin-top: 12px;
+  background-color: #26547d;
+  color: #fff5eb;
 }
 
 @media screen and (min-width: 992px) {
-  section {
+  .for-fullscreen {
     display: flex;
     margin-top: 50px;
+  }
+
+  .score-section {
+    width: 600px;
   }
 
   #form {
