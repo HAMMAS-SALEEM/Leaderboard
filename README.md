@@ -5,7 +5,6 @@
 
 
 ![SCREENSHOT](./src/components/images/leaderboard-desktop.GIF)
-![SCREENSHOT](./src/components/images/leaderboard-mob.GIF)
 
 
 ## Built With
@@ -17,7 +16,7 @@
 
 ## Get Live Demo
 
-<!-- [Live Demo Link](https://hammas-saleem.github.io/ToDoList/) -->
+[Live Demo Link](https://hammas-saleem.github.io/Leaderboard/)
 
 
 ## Clone and review it
