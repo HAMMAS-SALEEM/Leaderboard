@@ -50,7 +50,7 @@ Run the following commands to clone and run it.
 
 - GitHub: [@HAMMAS-SALEEM](https://github.com/HAMMAS-SALEEM)
 - Twitter: [@HammasSaleem4](https://twitter.com/HammasSaleem4)
-- LinkedIn: [HAMMAS SALEEM](https://www.linkedin.com/in/hammas-saleem-407)
+- LinkedIn: [HAMMAS SALEEM](https://www.linkedin.com/in/hammas-saleem)
 
 ## 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
