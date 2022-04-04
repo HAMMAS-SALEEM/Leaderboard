@@ -21,21 +21,21 @@
             <div class="rank-second top-ranks-person">
                 <p class="position pos-not-first">2nd</p>
                 <i class="fas fa-user-alt fa-4x"></i>
-                <p class="name second-person">Hammas</p>
-                <p class="score second-score">300</p>
+                <p class="name second-person"></p>
+                <p class="score second-score"></p>
             </div>
             <div class="rank-first top-ranks-person">
                 <p class="position">1st</p>
                 <i class="fas fa-crown fa-2x"></i>
                 <i class="fas fa-user-alt fa-6x"></i>
-                <p class="name first-person">Hammas</p>
-                <p class="score first-score">300</p>
+                <p class="name first-person"></p>
+                <p class="score first-score"></p>
             </div>
             <div class="rank-third top-ranks-person">
                 <p class="position pos-not-first">3rd</p>
                 <i class="fas fa-user-alt fa-4x"></i>
-                <p class="name third-person">Hammas</p>
-                <p class="score third-score">300</p>
+                <p class="name third-person"></p>
+                <p class="score third-score"></p>
             </div>
         </div>
         <div class="for-fullscreen">
@@ -50,9 +50,10 @@
         </div>
         <form id="form">
             <h3 class="form-title">Add your score</h3>
-            <input type="text" placeholder="Your Name" id="name" class="name-score">
-            <input type="text" placeholder="Your Score" id="score" class="name-score">
+            <input type="text" placeholder="Your Name" id="name" class="name-score" maxlength="11" required>
+            <input type="text" placeholder="Your Score" id="score" class="name-score" maxlength="11" required>
             <button type="submit" id="submit">Submit</button>
+            <small class="submission_status"></small>
         </form>
     </div>
     </section>

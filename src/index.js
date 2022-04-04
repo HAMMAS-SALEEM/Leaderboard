@@ -6,6 +6,7 @@ const refreshBtn = document.getElementById('refresh');
 const form = document.getElementById('form');
 const name = document.getElementById('name');
 const score = document.getElementById('score');
+const msgBox = document.querySelector('.submission_status');
 let players;
 
 window.addEventListener('load', () => {
@@ -18,7 +19,7 @@ refreshBtn.addEventListener('click', () => {
 
 form.addEventListener('submit', async (e) => {
   e.preventDefault();
-  await addEntry(name, score);
+  await addEntry(name, score, msgBox);
   refreshApiData(players, playerBox);
   name.value = '';
   score.value = '';
