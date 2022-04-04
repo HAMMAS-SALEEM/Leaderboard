@@ -2,7 +2,7 @@ import showRanks from './showRanks.js';
 
 // const id = 'UrrwaUE68W5wfBNLiufe';
 export const refreshApiData = (players, playerBox) => {
-  fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/UrrwaUE68W5wfBNLiufe/scores')
+  fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/a9b9cdf78dfb964d4ad19ba5e0292907;o=1/scores')
     .then((response) => response.json())
     .then((json) => {
       players = json.result;
@@ -30,7 +30,7 @@ export const addEntry = async (name, score) => {
     user: name.value,
     score: score.value,
   };
-  const response = await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/UrrwaUE68W5wfBNLiufe/scores', {
+  const response = await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/a9b9cdf78dfb964d4ad19ba5e0292907;o=1/scores', {
     method: 'POST',
     body: JSON.stringify(obj),
     headers: {
