@@ -4,8 +4,7 @@
 > This web application is a type of a scoreboard showing the names and current scores of the leading competitors in any field which is using API's to get and set data.
 
 
-![SCREENSHOT](./src/components/images/leaderboard-desktop.GIF)
-![SCREENSHOT](./src/components/images/leaderboard-mob.GIF)
+![SCREENSHOT](./src/components/images/Leaderboard-hammas.png)
 
 
 ## Built With
