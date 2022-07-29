@@ -19,7 +19,7 @@
 [Live Demo Link](https://hammas-saleem.github.io/Leaderboard/)
 
 
-## Clone and review it
+## Getting Started
 
 Run the following commands to clone and run it.
 
