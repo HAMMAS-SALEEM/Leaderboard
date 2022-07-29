@@ -25,11 +25,11 @@ Run the following commands to clone and run it.
 
 ### To clone the repository
 
-  `git clone git@github.com:HAMMAS-SALEEM/ToDoList.git`
+  `git clone git@github.com:HAMMAS-SALEEM/Leaderboard.git`
 
 ### To enter Directory
 
-`cd ToDoList`
+`cd Leaderboard`
 
 ### To Install Packages
 
